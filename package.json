@@ -1,0 +1,18 @@
+{
+  "name": "vroom-repuestos",
+  "version": "1.0.0",
+  "private": true,
+  "description": "VROOM Repuestos Express MVP - Monorepo",
+  "workspaces": [
+    "vroom-api"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspace=vroom-api",
+    "build": "npm run build --workspace=vroom-api",
+    "test": "npm run test --workspace=vroom-api",
+    "start": "npm run start --workspace=vroom-api"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}
